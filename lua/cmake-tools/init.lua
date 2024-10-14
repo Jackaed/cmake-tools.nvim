@@ -1202,7 +1202,9 @@ function cmake.select_cwd(cwd_path)
 end
 
 function cmake.update_cwd()
-  config.cwd = vim.loop.cwd()
+  local cwd_path = vim.loop.cwd()
+  config.cwd = cwd_path
+  config:update_build_dir(vim.fn.resolve(cwd_path.args), vim.fn.resolve(cwd_path.args))
   cmake.register_autocmd()
   cmake.register_autocmd_provided_by_users()
 end

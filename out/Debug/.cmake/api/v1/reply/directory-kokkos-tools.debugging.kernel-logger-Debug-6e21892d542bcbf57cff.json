@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kokkos-tools/debugging/kernel-logger",
+		"source" : "thirdparty/kokkos/kokkos-tools/debugging/kernel-logger"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kokkos-tools/profiling/memory-hwm",
+		"source" : "thirdparty/kokkos/kokkos-tools/profiling/memory-hwm"
+	}
+}

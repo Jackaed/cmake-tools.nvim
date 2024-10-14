@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kokkos-tools/profiling/memory-events",
+		"source" : "thirdparty/kokkos/kokkos-tools/profiling/memory-events"
+	}
+}

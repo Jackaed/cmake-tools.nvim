@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kokkos-tools/profiling/perfetto-connector",
+		"source" : "thirdparty/kokkos/kokkos-tools/profiling/perfetto-connector"
+	}
+}

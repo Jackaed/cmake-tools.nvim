@@ -1,0 +1,388 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "staggered/staggered-kokkos-A-mpi"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"TARGET_LINK_LIBRARIES",
+			"KOKKOS_CREATE_IMPORTED_TPL",
+			"KOKKOS_FIND_IMPORTED",
+			"FIND_PACKAGE",
+			"KOKKOS_IMPORT_TPL",
+			"INCLUDE",
+			"KOKKOS_SETUP_BUILD_ENVIRONMENT",
+			"set_property",
+			"_MPI_create_imported_target",
+			"find_package",
+			"target_compile_definitions",
+			"include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"src/staggered/CMakeLists.txt",
+			"thirdparty/kokkos/kokkos/CMakeLists.txt",
+			"thirdparty/kokkos/kokkos/cmake/kokkos_functions.cmake",
+			"thirdparty/kokkos/kokkos/cmake/Modules/FindTPLLIBDL.cmake",
+			"thirdparty/kokkos/kokkos/cmake/kokkos_tpls.cmake",
+			"thirdparty/kokkos/kokkos/cmake/kokkos_tribits.cmake",
+			"/nix/store/yzi080r2c1zn2jzrhcfdv7dmr92yw07l-cmake-3.29.6/share/cmake-3.29/Modules/FindMPI.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 318,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 226,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 214,
+				"parent" : 5
+			},
+			{
+				"file" : 4,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 84,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 293,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 784,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 390,
+				"parent" : 12
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 44,
+				"parent" : 14
+			},
+			{
+				"file" : 6,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 1642,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 1230,
+				"parent" : 17
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 7,
+				"line" : 46,
+				"parent" : 14
+			},
+			{
+				"command" : 13,
+				"file" : 7,
+				"line" : 47,
+				"parent" : 14
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "KOKKOS_DEPENDENCE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MPICH_SKIP_MPICXX"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "MPI_FOUND"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "OMPI_SKIP_MPICXX"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "USE_KERNEL_A"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_MPICC_H"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "/home/edward/development/cmake-tools.nvim/out/Debug/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/edward/development/kokkos-lqcd-benchmarks/src/abstractions"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/cmake-tools.nvim/out/Debug/kokkos"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/core/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/kokkos-lqcd-benchmarks/thirdparty/kokkos/kokkos/core/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/kokkos-lqcd-benchmarks/thirdparty/kokkos/kokkos/core/src/../../tpls/desul/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/kokkos-lqcd-benchmarks/thirdparty/kokkos/kokkos/core/src/../../tpls/mdspan/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/containers/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/kokkos-lqcd-benchmarks/thirdparty/kokkos/kokkos/containers/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/algorithms/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/kokkos-lqcd-benchmarks/thirdparty/kokkos/kokkos/algorithms/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/simd/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/edward/development/kokkos-lqcd-benchmarks/thirdparty/kokkos/kokkos/simd/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					22,
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "kokkoscore::@541459783ef84eee2f69"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "kokkoscontainers::@15f3bc89dd8d15064f36"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "kokkossimd::@447550a47d6c5edbf8f2"
+		}
+	],
+	"id" : "staggered-kokkos-A-mpi::@d9670297f60a0275e3cb",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-DKOKKOS_DEPENDENCE",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,-rpath",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,/nix/store/mi5nhcn2cw8rw162a0yj6rzbzhf5yhkg-openmpi-5.0.5/lib",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--enable-new-dtags",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../kokkos/containers/src/libkokkoscontainers.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../kokkos/core/src/libkokkoscore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../kokkos/simd/src/libkokkossimd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/nix/store/mi5nhcn2cw8rw162a0yj6rzbzhf5yhkg-openmpi-5.0.5/lib/libmpi.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "staggered-kokkos-A-mpi",
+	"nameOnDisk" : "staggered-kokkos-A-mpi",
+	"paths" : 
+	{
+		"build" : "staggered",
+		"source" : "src/staggered"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/staggered/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

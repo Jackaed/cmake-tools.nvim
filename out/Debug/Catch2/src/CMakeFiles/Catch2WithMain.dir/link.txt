@@ -1,0 +1,2 @@
+/nix/store/rjsfx6sxjpkgd4f9hl9apm0n8dk7jd9w-clang-wrapper-19.1.0-rc2/bin/ar qc libCatch2Maind.a CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o
+/nix/store/rjsfx6sxjpkgd4f9hl9apm0n8dk7jd9w-clang-wrapper-19.1.0-rc2/bin/ranlib libCatch2Maind.a

@@ -1,0 +1,104 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"KOKKOS_INTERNAL_ADD_LIBRARY_INSTALL",
+			"KOKKOS_INTERNAL_ADD_LIBRARY",
+			"KOKKOS_ADD_LIBRARY"
+		],
+		"files" : 
+		[
+			"thirdparty/kokkos/kokkos/containers/src/CMakeLists.txt",
+			"thirdparty/kokkos/kokkos/cmake/kokkos_tribits.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 445,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 417,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/kokkos",
+			"paths" : 
+			[
+				{
+					"from" : "thirdparty/kokkos/kokkos/containers/src",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Kokkos",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos/containers/src/libkokkoscontainers.a"
+			],
+			"targetId" : "kokkoscontainers::@15f3bc89dd8d15064f36",
+			"targetIndex" : 38,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos/containers/src/libkokkoscontainers.a"
+			],
+			"targetId" : "kokkoscontainers::@15f3bc89dd8d15064f36",
+			"targetIndex" : 38,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "kokkos/containers/src",
+		"source" : "thirdparty/kokkos/kokkos/containers/src"
+	}
+}

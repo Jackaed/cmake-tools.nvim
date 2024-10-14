@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kokkos-tools/profiling/simple-kernel-timer",
+		"source" : "thirdparty/kokkos/kokkos-tools/profiling/simple-kernel-timer"
+	}
+}

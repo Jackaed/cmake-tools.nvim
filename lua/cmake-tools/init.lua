@@ -1204,7 +1204,7 @@ end
 function cmake.update_cwd()
   local cwd_path = vim.loop.cwd()
   config.cwd = cwd_path
-  config:update_build_dir(vim.fn.resolve(cwd_path.args), vim.fn.resolve(cwd_path.args))
+  config:update_build_dir(const.cmake_build_directory, const.cmake_build_directory)
   cmake.register_autocmd()
   cmake.register_autocmd_provided_by_users()
 end

@@ -1,0 +1,163 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"INCLUDE",
+			"INSTALL",
+			"KOKKOS_INSTALL_ADDITIONAL_FILES"
+		],
+		"files" : 
+		[
+			"thirdparty/kokkos/kokkos/cmake/kokkos_install.cmake",
+			"thirdparty/kokkos/kokkos/CMakeLists.txt",
+			"thirdparty/kokkos/kokkos/cmake/kokkos_tribits.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 321,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 330,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 272,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 277,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib64/cmake/Kokkos",
+			"paths" : 
+			[
+				"/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/KokkosConfig.cmake",
+				"/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/KokkosConfigCommon.cmake",
+				"/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/KokkosConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib64/cmake/Kokkos",
+			"exportName" : "KokkosTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "LIBDL::@8601fc4a8a8f1eb12b3b",
+					"index" : 0
+				},
+				{
+					"id" : "kokkoscore::@541459783ef84eee2f69",
+					"index" : 39
+				},
+				{
+					"id" : "kokkoscontainers::@15f3bc89dd8d15064f36",
+					"index" : 38
+				},
+				{
+					"id" : "kokkosalgorithms::@7b314f0e2d33b2c41e6e",
+					"index" : 0
+				},
+				{
+					"id" : "kokkossimd::@447550a47d6c5edbf8f2",
+					"index" : 40
+				},
+				{
+					"id" : "kokkos::@8601fc4a8a8f1eb12b3b",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"kokkos/CMakeFiles/Export/18c67999278cb14d1a9023a645a204b4/KokkosTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/kokkos",
+			"paths" : 
+			[
+				"/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/KokkosCore_config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"thirdparty/kokkos/kokkos/bin/nvcc_wrapper",
+				"thirdparty/kokkos/kokkos/bin/hpcbind",
+				"/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/temp/kokkos_launch_compiler"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/kokkos",
+			"paths" : 
+			[
+				"/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/KokkosCore_config.h",
+				"/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/KokkosCore_Config_FwdBackend.hpp",
+				"/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/KokkosCore_Config_SetupBackend.hpp",
+				"/home/edward/development/cmake-tools.nvim/out/Debug/kokkos/KokkosCore_Config_DeclareBackend.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "kokkos",
+		"source" : "thirdparty/kokkos/kokkos"
+	}
+}

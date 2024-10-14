@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kokkos-tools/common/kernel-filter",
+		"source" : "thirdparty/kokkos/kokkos-tools/common/kernel-filter"
+	}
+}

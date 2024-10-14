@@ -1,0 +1,1 @@
+/nix/store/rjsfx6sxjpkgd4f9hl9apm0n8dk7jd9w-clang-wrapper-19.1.0-rc2/bin/clang++ -g -DKOKKOS_DEPENDENCE CMakeFiles/kernel_test_A.dir/kernel_test.cpp.o -o kernel_test_A  ../solver/utils/libsolver-utils-A.a ../Catch2/src/libCatch2d.a ../kokkos/containers/src/libkokkoscontainers.a ../kokkos/core/src/libkokkoscore.a -ldl ../kokkos/simd/src/libkokkossimd.a

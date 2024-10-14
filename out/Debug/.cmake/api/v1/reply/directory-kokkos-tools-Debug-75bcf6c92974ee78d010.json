@@ -1,0 +1,256 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdparty/kokkos/kokkos-tools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 280,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 281,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos-tools/common/kernel-filter/libkp_kernel_filter.so"
+			],
+			"targetId" : "kp_kernel_filter::@b05934334384e5addf06",
+			"targetIndex" : 44,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos-tools/debugging/kernel-logger/libkp_kernel_logger.so"
+			],
+			"targetId" : "kp_kernel_logger::@64641685fa292a554595",
+			"targetIndex" : 45,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos-tools/profiling/simple-kernel-timer/libkp_kernel_shared.a"
+			],
+			"targetId" : "kp_kernel_shared::@d90f15ee7add74454562",
+			"targetIndex" : 46,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos-tools/profiling/simple-kernel-timer/libkp_kernel_timer.so"
+			],
+			"targetId" : "kp_kernel_timer::@d90f15ee7add74454562",
+			"targetIndex" : 47,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"kokkos-tools/profiling/simple-kernel-timer/kp_reader"
+			],
+			"targetId" : "kp_reader::@d90f15ee7add74454562",
+			"targetIndex" : 52,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"kokkos-tools/profiling/simple-kernel-timer/kp_json_writer"
+			],
+			"targetId" : "kp_json_writer::@d90f15ee7add74454562",
+			"targetIndex" : 43,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos-tools/profiling/memory-hwm/libkp_hwm.so"
+			],
+			"targetId" : "kp_hwm::@95cff2450d7ba167b46b",
+			"targetIndex" : 42,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos-tools/profiling/memory-events/libkp_memory_events.so"
+			],
+			"targetId" : "kp_memory_events::@a77360399356b1c22c99",
+			"targetIndex" : 49,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos-tools/profiling/memory-usage/libkp_memory_usage.so"
+			],
+			"targetId" : "kp_memory_usage::@7f4c7ea75e2d85492751",
+			"targetIndex" : 50,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos-tools/profiling/chrome-tracing/libkp_chrome_tracing.so"
+			],
+			"targetId" : "kp_chrome_tracing::@2144caac9264b297eaeb",
+			"targetIndex" : 41,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos-tools/profiling/space-time-stack/libkp_space_time_stack.so"
+			],
+			"targetId" : "kp_space_time_stack::@91eabc15aab2b2c2e320",
+			"targetIndex" : 53,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"kokkos-tools/profiling/perfetto-connector/libkp_perfetto_connector.so"
+			],
+			"targetId" : "kp_perfetto_connector::@827b9e83a97f52e3ebcc",
+			"targetIndex" : 51,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib64/cmake",
+			"exportName" : "KokkosToolsConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "kp_kernel_filter::@b05934334384e5addf06",
+					"index" : 44
+				},
+				{
+					"id" : "kp_kernel_logger::@64641685fa292a554595",
+					"index" : 45
+				},
+				{
+					"id" : "kp_kernel_shared::@d90f15ee7add74454562",
+					"index" : 46
+				},
+				{
+					"id" : "kp_kernel_timer::@d90f15ee7add74454562",
+					"index" : 47
+				},
+				{
+					"id" : "kp_reader::@d90f15ee7add74454562",
+					"index" : 52
+				},
+				{
+					"id" : "kp_json_writer::@d90f15ee7add74454562",
+					"index" : 43
+				},
+				{
+					"id" : "kp_hwm::@95cff2450d7ba167b46b",
+					"index" : 42
+				},
+				{
+					"id" : "kp_memory_events::@a77360399356b1c22c99",
+					"index" : 49
+				},
+				{
+					"id" : "kp_memory_usage::@7f4c7ea75e2d85492751",
+					"index" : 50
+				},
+				{
+					"id" : "kp_chrome_tracing::@2144caac9264b297eaeb",
+					"index" : 41
+				},
+				{
+					"id" : "kp_space_time_stack::@91eabc15aab2b2c2e320",
+					"index" : 53
+				},
+				{
+					"id" : "kp_perfetto_connector::@827b9e83a97f52e3ebcc",
+					"index" : 51
+				}
+			],
+			"paths" : 
+			[
+				"kokkos-tools/CMakeFiles/Export/e36e09f09a287e8ff94fe69d5c48aed8/KokkosToolsConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "kokkos-tools",
+		"source" : "thirdparty/kokkos/kokkos-tools"
+	}
+}

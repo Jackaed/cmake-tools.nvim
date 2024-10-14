@@ -1,1 +1,0 @@
-/nix/store/rjsfx6sxjpkgd4f9hl9apm0n8dk7jd9w-clang-wrapper-19.1.0-rc2/bin/clang++ -fPIC -g -shared -Wl,-soname,libkp_hwm.so -o libkp_hwm.so CMakeFiles/kp_hwm.dir/kp_hwm.cpp.o

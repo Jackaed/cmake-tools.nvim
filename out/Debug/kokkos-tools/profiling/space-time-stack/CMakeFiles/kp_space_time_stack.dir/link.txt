@@ -1,1 +1,0 @@
-/nix/store/rjsfx6sxjpkgd4f9hl9apm0n8dk7jd9w-clang-wrapper-19.1.0-rc2/bin/clang++ -fPIC -g -shared -Wl,-soname,libkp_space_time_stack.so -o libkp_space_time_stack.so CMakeFiles/kp_space_time_stack.dir/kp_space_time_stack.cpp.o

@@ -1201,6 +1201,12 @@ function cmake.select_cwd(cwd_path)
   end
 end
 
+function cmake.update_cwd()
+  config.cwd = vim.loop.cwd()
+  cmake.register_autocmd()
+  cmake.register_autocmd_provided_by_users()
+end
+
 function cmake.select_build_dir(cwd_path)
   if cwd_path.args == "" then
     vim.ui.input(
